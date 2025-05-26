@@ -1,4 +1,11 @@
+/**
+ * Clase principal que gestiona el sistema de empleados.
+ */
 public class SistemaGestionEmpleados {
+    /**
+     * Método principal. Da de alta empleados, muestra la lista y aumenta salarios.
+     * @param args Argumentos de línea de comandos.
+     */
     public static void main(String[] args) {
         Empleados empleados = new Empleados();
 
