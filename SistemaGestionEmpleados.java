@@ -6,12 +6,12 @@ public class SistemaGestionEmpleados {
         empleados.darDeAltaEmpleado(new Empleado("Ana", "Secretaria", 2000));
         empleados.darDeAltaEmpleado(new Empleado("Luis", "Contable", 2500));
 
-        System.out.println("Listado de empleados:");
+        System.out.println(Mensajes.LISTADO_EMPLEADOS);
         empleados.mostrarEmpleados();
 
         empleados.aumentarSalario(10);
 
-        System.out.println("\nListado tras aumento de salario:");
+        System.out.println(Mensajes.LISTADO_TRAS_AUMENTO);
         empleados.mostrarEmpleados();
     }
 }
